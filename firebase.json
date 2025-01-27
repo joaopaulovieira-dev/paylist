@@ -1,1 +1,15 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"paylist-finance","appId":"1:441446639478:android:d10938c5cd7af3b1147c57","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"paylist-finance","configurations":{"android":"1:441446639478:android:d10938c5cd7af3b1147c57","ios":"1:441446639478:ios:ef1dd7311f7ed904147c57","macos":"1:441446639478:ios:ef1dd7311f7ed904147c57","web":"1:441446639478:web:a1beee588236c8de147c57","windows":"1:441446639478:web:7c46ab15d3b35322147c57"}}}}}}
+{
+    "hosting": {
+      "public": "build/web",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    },
+    "flutter":{
+        "platforms":{
+            "android":{"default":{"projectId":"paylist-finance","appId":"1:441446639478:android:d10938c5cd7af3b1147c57","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"paylist-finance","configurations":{"android":"1:441446639478:android:d10938c5cd7af3b1147c57","ios":"1:441446639478:ios:ef1dd7311f7ed904147c57","macos":"1:441446639478:ios:ef1dd7311f7ed904147c57","web":"1:441446639478:web:a1beee588236c8de147c57","windows":"1:441446639478:web:7c46ab15d3b35322147c57"}}}
+        }
+    }
+}

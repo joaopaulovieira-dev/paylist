@@ -139,7 +139,7 @@ class FormLoginWidget extends StatelessWidget {
             ),
           ],
         ),
-        const SizedBox(height: 40),
+        const SizedBox(height: 20),
         Container(
           decoration: BoxDecoration(
             color: AppTheme.colors.primary,

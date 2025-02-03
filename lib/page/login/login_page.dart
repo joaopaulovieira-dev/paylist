@@ -14,7 +14,10 @@ class LoginPage extends StatelessWidget {
       backgroundColor: AppTheme.colors.background,
       body: Center(
         child: SingleChildScrollView(
-          child: const BodyWidget(),
+          child: Padding(
+            padding: const EdgeInsets.all(20),
+            child: const BodyWidget(),
+          ),
         ),
       ),
     );

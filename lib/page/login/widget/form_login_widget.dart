@@ -29,39 +29,31 @@ class FormLoginWidget extends StatelessWidget {
 
   Widget _formLogin() {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const SizedBox(
-              height: 30,
-            ),
-            Image.asset(
-              'assets/images/logo.png',
-              width: 70,
-              height: 70,
-            ),
-            const SizedBox(
-              height: 30,
-            ),
-            Text(
-              "PayList",
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            const SizedBox(
-              height: 5,
-            ),
-            Text(
-              "Tenha acesso as melhores ações da Bolsa de Valores.",
-            ),
-            const SizedBox(
-              height: 30,
-            ),
-          ],
+        Image.asset(
+          'assets/images/logo.png',
+          width: 80,
+          height: 80,
+        ),
+        const SizedBox(
+          height: 20,
+        ),
+        Text(
+          "PayList",
+          style: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+            color: Color(0xFF293757),
+          ),
+        ),
+        const SizedBox(
+          height: 5,
+        ),
+        // Text(
+        //   "Tenha acesso as melhores ações da Bolsa de Valores.",
+        // ),
+        const SizedBox(
+          height: 30,
         ),
         TextField(
           controller: emailController,
@@ -73,6 +65,7 @@ class FormLoginWidget extends StatelessWidget {
             labelStyle: const TextStyle(
               color: Colors.black54,
               fontWeight: FontWeight.w600,
+              fontSize: 15,
             ),
             contentPadding: const EdgeInsets.only(left: 30),
             enabledBorder: OutlineInputBorder(
@@ -102,6 +95,7 @@ class FormLoginWidget extends StatelessWidget {
                 labelStyle: const TextStyle(
                   color: Colors.black54,
                   fontWeight: FontWeight.w600,
+                  fontSize: 15,
                 ),
                 contentPadding: const EdgeInsets.only(left: 30),
                 enabledBorder: OutlineInputBorder(
@@ -136,7 +130,7 @@ class FormLoginWidget extends StatelessWidget {
                     'Esqueci Minha Senha',
                     style: TextStyle(
                       color: AppTheme.colors.primary, // Cor do texto do botão
-                      fontWeight: FontWeight.bold, // Estilo do texto do botão
+                      //fontWeight: FontWeight.bold, // Estilo do texto do botão
                       fontSize: 12, // Tamanho da fonte do texto do botão
                     ),
                   ),
